@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Student's performance</title>
+    <link rel="stylesheet" href="styles/display-style.css">
+    <link rel="stylesheet" href="styles/col.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+
+    <header>
+      <section class="right-side-header">
+        <select id = "subject-select-box" class="subject-selection" name="select-subject">
+          <option value="sub1">G1</option>
+          <option value="sub2">G2</option>
+          <option value="sub3">G3</option>
+        </select>
+      </section>
+
+    </header>
+
+    <article>
+
+      <h1>Student Performance Measurement </h1>
+      <section class="description">
+        <p>The narrative visualization utilizes interactive slideshow hybrid structure, which allows the users to follow an author directed path through a slideshow. Three scenes are included in this visualization, the user can change scene by simply clicking on the drop-down menu at the top right corner. Three scenes represent student performances in three different grade period, which are G1, G2 and G3. Each scene consists of two graphs: one bar graph and one doughnut chart. The bar graph displays the grades of 50 students in a specific grade period. The doughnut chart displays the number of students in each grade category. Colors varying in this graph from dark to light shades are correspondingly in the categories "0-4", "5-8", "9-12", "13-16", "17-20" in a clockwise manner. When the user moves the mouse on a specific student (e.g. student 25) in bar graph or specific grade range in doughnut chart (e.g. 17-20), that specific data item will be highlighted with annotations ("student 25: 3 marks" or "17-20: 10" in G1). It will be cleared as the mouse leaves. The parameters of bar graph are student number (1-50) and their grades(0-20). The parameters of doughnut chart are grade range (0-4, 5-8, etc.) and number of students in that specific range. When the user moves the mouse around the grade range parameter (e.g. 17-20) in doughnut chart, the bar graph highlights the corresponding students in that range (trigger), and the color of those students become less saturate.  </p>
+
+      </section>
+
+      <section class="practice-section col-lg-6 col-md-12 col-sm-12">
+
+      </section>
+
+      <section class="more-practice-section col-lg-6 col-md-12 col-sm-12">
+
+      </section>
+
+    </article>
+
+
+    <!-- <footer>
+      Made by Vaibhav
+    </footer> -->
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src = "scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src = "scripts/angular.min.js"></script>
+    <script type="text/javascript" src = "scripts/display-main.js"></script>
+  </body>
+
+</html>

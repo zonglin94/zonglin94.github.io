@@ -1,0 +1,129 @@
+*{
+  /*outline: 1px solid green;*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button{
+  cursor: pointer;
+}
+
+.default-flat-button{
+  border: none;
+  min-width: 88px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 0 8px;
+  margin: 0 8px;
+}
+
+.default-raised-button{
+  border: none;
+  min-width: 88px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 0 8px;
+  margin: 0 8px;
+  background-color:lightblue;
+}
+
+.default-raised-button:hover{
+  box-shadow: 1px 1px 2px lightgray;
+}
+body{
+  background-color: #FAFAFA;
+}
+
+/******************************************************************************/
+/*HEADER*/
+/******************************************************************************/
+header{
+  height: 48px;
+  padding: 8px 16px;
+}
+
+.right-side-header{
+  float: right;
+}
+.logout-link{
+  float: right;
+}
+
+.subject-selection{
+  height: 36px;
+  width: 92px;
+  margin: 0px 16px;
+}
+
+.subject-selection, .subject-selection option{
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/******************************************************************************/
+/*ARTICLE*/
+/******************************************************************************/
+h1{
+  text-align: Left;
+  margin: 16px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.description{
+  padding: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  width: 850px;
+}
+p{
+  padding: 8px;
+}
+article{
+  /*padding: 16px;*/
+  min-height: 550px;
+}
+.buttons-section{
+  padding: 16px;
+}
+
+.practice-section, .more-practice-section, .pie-practice-section{
+  padding: 16px;
+}
+.logout-button{
+  background-color: #9E9E9E;
+  color:white;
+}
+
+.donut-arc text{
+  font-size: 10px;
+  font-weight: 500;
+  text-anchor: middle;
+}
+
+.donut-arc path{
+  stroke: #ffffff;
+}
+
+/******************************************************************************/
+/*FOOTER*/
+/******************************************************************************/
+footer{
+  position: fixed;
+  bottom: 0px;
+  height: 56px;
+  background: yellow;
+  width: 100%;
+}
